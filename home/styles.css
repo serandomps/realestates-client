@@ -1,0 +1,27 @@
+.sandbox-realestates-client .blueimp-gallery-carousel {
+    margin-top: 0;
+}
+
+.sandbox-realestates-client .blueimp-gallery-carousel .slides, .sandbox-realestates-client .blueimp-gallery-carousel .indicator {
+    cursor: pointer;
+}
+
+.sandbox-realestates-client .blueimp-gallery-carousel .title {
+    text-shadow: none;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 32px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, hsla(0,0%,80%,0), rgba(0,0,0,1));
+    font-size: 1.25rem;
+}
+
+.sandbox-realestates-client .blueimp-gallery-carousel .primary {
+    font-size: 1.25rem;
+}
+
+.sandbox-realestates-client .blueimp-gallery-carousel .secondary {
+    font-size: 1rem;
+}
