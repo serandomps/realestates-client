@@ -15,10 +15,10 @@
         "serandomps/validators": "master",
         "serandomps/breadcrumb": "master",
         "serandomps/navigation": "master",
-        "serandomps/contacts": "master",
-        "serandomps/locations": "master",
+        "serandomps/model-contacts": "master",
+        "serandomps/model-locations": "master",
         "serandomps/upload": "master",
-        "serandomps/realestates-model": "master",
+        "serandomps/model-realestates": "master",
         "serandomps/gallery": "master"
     },
     "scripts": [
