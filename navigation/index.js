@@ -41,7 +41,6 @@ var filter = function (options, token, links) {
         return links;
     }
     links.signin = {url: '/signin', title: 'Sign in'};
-    links.signup = {url: '/signup', title: 'Sign up'};
     return links;
 };
 
