@@ -15,8 +15,7 @@ module.exports = function (ctx, container, options, done) {
                 updatedAt: -1
             },
             count: 5
-        },
-        resolution: '800x450'
+        }
     }, function (err, realestates) {
         if (err) return done(err);
         dust.render('realestates-home', serand.pack(realestates, container), function (err, out) {
@@ -32,7 +31,7 @@ module.exports = function (ctx, container, options, done) {
                     var o = [];
                     realestates.forEach(function (realestate) {
                         var images = realestate._.images || [];
-                        var href = images.length ? images[0].url : '';
+                        var href = images.length ? images[0].x800 : '';
                         o.push({href: href});
                     });
                     var gallery = blueimp.Gallery(o, {
